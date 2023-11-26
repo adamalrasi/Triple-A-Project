@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
+
+body {
+  background-color: #018183;
+  color: #fff;
+  font-family: "VT323", "Press Start 2P", sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  font-weight: 500;
+}
+h4 {
+  margin: 0.2rem;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.desktop-container {
+  height: 95vh;
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.icon-container {
+  width: 6rem;
+  height: 5rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.icon-image-container {
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.taskbar {
+  background-color: #c0c1c1;
+  height: 2rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.2rem solid #eff6f9;
+}
+.start-button {
+  color: #000;
+  margin: 0.5rem;
+  width: 4rem;
+  height: 1.4rem;
+  border: 0.15rem solid black;
+  border-left: 0.15rem solid #eff6f9;
+  border-top: 0.15rem solid #eff6f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clock-button {
+  color: black;
+  margin: 0.5rem;
+  width: 5.5rem;
+  height: 1.4rem;
+  border: 0.15rem solid #eff6f9;
+  border-left: 0.15rem solid #979697;
+  border-top: 0.15rem solid #979697;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.start-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0.1rem;
+}
+.system-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0.1rem;
+}
